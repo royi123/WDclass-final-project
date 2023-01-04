@@ -1,0 +1,73 @@
+﻿/*.dropbtn {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #d9d9d9;
+}
+
+.dropdown {
+    float:right;
+    position:absolute;
+    display:inline-block;
+}
+
+.dropdown-content {
+    float:right;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        text-decoration: none;
+        display:block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+
+
+// JavaScript code goes here
+        // Get the parsed text from the query string
+        var urlParams = new URLSearchParams(window.location.search);
+        var parsedText = urlParams.get("text");
+
+        // Insert the parsed text into the page
+        document.getElementById("parsed-text").innerHTML = parsedText;
+
+
+
+        var inputText = decodeURIComponent(window.location.search.substring(1));
+        var parsedText = "Parsed text: " + inputText.toUpperCase();
+        document.getElementById("parsed-text").innerHTML = parsedText;
+
+        //function parseInput() {
+        //    var inputText = document.getElementById("input-text").value;
+
+        //    var parsedText = "Parsed text: " + inputText.toUpperCase();
+
+        //    alert(parsedText);
+
+        //    // Send the parsed text to another HTML page
+        //    window.location.href = "viewPosts.html" + encodeURIComponent(parsedText);
+
+        //    // Redirect the user to the original HTML page
+        //    window.location.href = "compose.html";
+        //}
