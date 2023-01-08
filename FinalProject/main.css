@@ -129,3 +129,6 @@ button {
     background-color: #eee;
     cursor: pointer;
 }
+#Uname{
+    display: flex;
+}
