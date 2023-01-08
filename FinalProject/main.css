@@ -13,7 +13,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white; 
+    background-color: #f9f9f9; 
     /* background: linear-gradient(to right, #868f96 0%, #596164 100%); */
 }
 
@@ -115,13 +115,13 @@ form {
 
 }
 
-input {
+/* input {
     margin: 8px 0;
     padding: 12px;
     font-size: 16px;
     border: 1px solid #ccc;
 
-}
+} */
 
 button {
     padding: 12px;
@@ -130,7 +130,9 @@ button {
     background-color: #eee;
     cursor: pointer;
 }
-.Uname{
+.flex-container-1{
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
