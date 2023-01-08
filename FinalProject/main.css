@@ -46,7 +46,7 @@ body {
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color:#FC4A1A;
+     background-color:#FC4A1A;
 }
 
     .footer p {
@@ -129,6 +129,7 @@ button {
     background-color: #eee;
     cursor: pointer;
 }
-#Uname{
+.Uname{
     display: flex;
+    justify-content: center;
 }
