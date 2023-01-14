@@ -70,6 +70,9 @@
     <Content Include="homePage.html" />
     <Content Include="contacts.html" />
     <Content Include="compose.html" />
+    <Content Include="images\[CITYPNG.COM]Brush Stroke White Arrow To Left PNG - 2559x1648_640x412 %281%29.png" />
+    <Content Include="images\[CITYPNG.COM]Brush Stroke White Arrow To Left PNG - 2559x1648_640x412.png" />
+    <Content Include="signup.html" />
     <Content Include="viewPosts.html" />
     <Content Include="images\code %281%29.png" />
     <Content Include="images\code %282%29.png" />

@@ -1,26 +1,39 @@
-﻿#title1 {
+﻿/* CSS HEX (imported from coolors.co) */
+--middle-blue: #89d2dcff;
+--slate-blue: #6564dbff;
+--persian-blue: #232ed1ff;
+--oxford-blue: #101d42ff;
+--rich-black-fogra-29: #0d1317ff;
+--old nav color:#d9d9d9;
+--old body color-profile:#f9f9f9
+
+#title1 {
     float: left;
     color: black;
     text-align: center;
     text-decoration: none;
     font-size: 10px;
     /* background-color: #868f96;  */
-    background-color: #d9d9d9; 
+    background-color: #d9d9d9;
     padding-left: 20px;
     font-family: "Courier New",;
+    background-color: #101D42;
 }
 
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f9f9f9; 
-    /* background: linear-gradient(to right, #868f96 0%, #596164 100%); */
+    background-color: #0d1317ff;
 }
 
 .topnav {
     overflow: hidden;
-    background-color: #d9d9d9; 
-    /* background: linear-gradient(to right, #868f96 0%, #596164 100%); */
+    background-color: #101D42;
+    max-height: 100px;
+}
+.arrow1 {
+    display: flex;
+    justify-content: right;
 }
 
     .topnav a {
