@@ -38,7 +38,7 @@ body {
    padding-left:800px
    
 }
-p{
+.bio1{
     color: white;
     max-width: 500px;
     flex: 1;
