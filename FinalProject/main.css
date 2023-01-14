@@ -35,7 +35,17 @@ body {
     display: flex;
     order:3;
    flex:1;
-   padding-left:400px
+   padding-left:800px
+   
+}
+.bio {
+    color: white;
+    max-width: 500px;
+    flex: 1;
+    line-height: 1.8;
+    order: 2;
+    flex-direction: column;
+    justify-content: center;
 }
 
     .topnav a {
