@@ -1,19 +1,19 @@
 ﻿/* CSS HEX (imported from coolors.co) */
---middle-blue: #89d2dcff;
+/* --middle-blue: #89d2dcff;
 --slate-blue: #6564dbff;
 --persian-blue: #232ed1ff;
 --oxford-blue: #101d42ff;
 --rich-black-fogra-29: #0d1317ff;
 --old nav color:#d9d9d9;
 --old body color-profile:#f9f9f9
---old nav-hoverColor::after#ddd
+--old nav-hoverColor::after#ddd */
 
 
-.flex-1 {
-    display: flex;
-    align-content:center;
-    flex-direction:column;
-    
+#signupS{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
 }
 
 #title1 {
