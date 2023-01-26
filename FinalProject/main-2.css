@@ -8,12 +8,23 @@
 --old body color-profile:#f9f9f9
 --old nav-hoverColor::after#ddd */
 
-
+.signup-form  {
+    display: flex;
+    flex:1;
+    max-width:600px;
+    border-radius: 10px;
+    background-color: #EFF0F1;
+    border: 1px solid #999;
+    margin-top: auto;
+    margin-bottom:  auto;
+    justify-content: space-evenly;
+  }
 #signupS{
+    height:100%;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    
 }
 
 #title1 {
