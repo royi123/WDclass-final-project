@@ -9,11 +9,18 @@
 --old nav-hoverColor::after#ddd */
 
 
-#signupS{
-    display:flex;
+.signup-form{
+    margin-top: 25px;
+}
+
+#signupPage{
+    display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 25px;
+    align-content:space-between;
+    background-color: white;
+    height: 100%;
+    max-width: 1000px;
+    margin:0 auto;
 }
 
 #title1 {
