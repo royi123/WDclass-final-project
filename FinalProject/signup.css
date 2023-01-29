@@ -8,7 +8,6 @@
 --old body color-profile:#f9f9f9
 --old nav-hoverColor::after#ddd */
 
-<<<<<<< HEAD:FinalProject/signup.css
 
 .signup-form{
     margin-top: 25px;
@@ -22,25 +21,6 @@
     height: 100%;
     max-width: 1000px;
     margin:0 auto;
-=======
-.signup-form  {
-    display: flex;
-    flex:1;
-    max-width:600px;
-    border-radius: 10px;
-    background-color: #EFF0F1;
-    border: 1px solid #999;
-    margin-top: auto;
-    margin-bottom:  auto;
-    justify-content: space-evenly;
-  }
-#signupS{
-    height:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
->>>>>>> 4d93f8a98ff3519297979779024bee06faaad9e5:FinalProject/main-2.css
 }
 
 #title1 {

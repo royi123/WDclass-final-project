@@ -12,7 +12,8 @@
    // script 3
    const button2 = document.querySelector("#close-button")
    button2.addEventListener("click", function(){
-     modal.style.display = "none"
+    modal.close();
+    //  modal.style.display = "none"
    })
  });
  
