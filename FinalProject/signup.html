@@ -26,17 +26,34 @@
             </div>
         </div>
     </div>
-    <dialog class="modal">
+    <!-- <dialog class="modal">
         <h1>would you like to join our newsletter</h1>
         <p>in order to recieve news about this project</p>
         <button id="close-button">Close</button>
         <button id="newsletterOpen">Sign Up for Newsletter</button>
-    </dialog>
-    <section id="signupS">
-        <form action="/" method="post" class="flex-1" >
-            <input type="text" name="Uname" placeholder="שם משתמש"width="100px" height="50px" style="order:1"/>
-            <input type="text" name="Uname" placeholder="שם משתמש"width="100px" height="50px" style="order:2"/>
-        </form>
+    </dialog> -->
+    <section id="signupPage">
+        <form action="" method="post" class="signup-form" onsubmit="healthCheck()">
+            <div style="display: flex; flex-direction: column;">
+              <div class="input-group-1" style="display: flex;">
+                <input type="text" name="name" placeholder="שם " />
+                <input type="text" name="Fname" placeholder="שם משפחה"/>
+              </div>
+              <div class="input-group-2" style="display: flex;">
+                <input type="text" name="Uname" placeholder="שם משתמש"/>
+                <input type="email" name="email" placeholder="email" />
+              </div>
+              <div class="input-group-3" style="display: flex;">
+                <label><input type="date" name="Bday" style ="width: 100%;" />enter your date of birth</label>
+              </div> 
+              <div class="input-group-4" style="display: flex;">
+                <input type="password" name="password" placeholder="enter your password" style ="width: 100%;" />
+
+              </div>
+              <button type="submit">submit</button>
+            </div>
+          </form>
+          
     </section>
         
 </body>
