@@ -8,6 +8,9 @@
 --old body color-profile:#f9f9f9
 --old nav-hoverColor::after#ddd */
 
+input::placeholder {
+    color: white;
+  }
 
 .Modal{
     width: 300px;
@@ -15,10 +18,21 @@
 }
 
 input {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     height: 17px;
-
+    background-color: #202C39;
+    border: solid white 1px;
+    color: white;
   }
+
+  .signup-form{
+    margin-top: 25px;
+    display: flex;
+    justify-content:center;
+    margin: 15px;
+    flex-wrap: wrap;
+    background-color: #202C39;
+}
 
 /* .input-group-1{
     flex: 2;
@@ -48,13 +62,7 @@ input {
 }*/
 
 
-.signup-form{
-    margin-top: 25px;
-    display: flex;
-    justify-content:center;
-    margin: 15px;
-    flex-wrap: wrap;
-}
+
 
 #signupPage{
     display: flex;

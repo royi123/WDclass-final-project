@@ -32,9 +32,10 @@
         <button id="close-button">Close</button>
         <button id="newsletterOpen">Sign Up for Newsletter</button>
     </dialog> -->
-    <section id="signupPage">
+    <h1 style="display: flex;justify-content: center;color: white;"">Sign Up</h1>
+    <section id="signupPage" style="background-color:#202C39 ;">
         <form action="" method="post" class="signup-form" onsubmit="healthCheck()">
-            <div style="display: flex; flex-direction: column;">
+            <div style="display: flex; flex-direction: column; ">
               <div class="input-group-1" style="display: flex;">
                 <input type="text" name="name" placeholder="שם " />
                 <input type="text" name="Fname" placeholder="שם משפחה"/>
@@ -46,11 +47,13 @@
               <div class="input-group-3" style="display: flex;">
               <input type="date" name="Bday" style ="width: 100%;" />
               </div> 
+              <input type="password" name="password" placeholder="enter your password" style ="width: 100%;" />
               <div class="input-group-4" style="display: flex;">
-                <input type="password" name="password" placeholder="enter your password" style ="width: 100%;" />
-
               </div>
-              <button type="submit">submit</button>
+              <div class="input-group-5" style="display: flex;">
+                <input type="password" name="ConfirmPassword" placeholder="Confirm your password" style ="width: 100%;" />
+              </div>
+             <button type="submit" >submit</button>
             </div>
           </form>
           

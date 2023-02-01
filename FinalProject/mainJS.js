@@ -28,4 +28,3 @@ function healthCheck(){
   inputGroup3Check()
 
 }
- 
