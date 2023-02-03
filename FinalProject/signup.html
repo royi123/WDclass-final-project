@@ -33,31 +33,48 @@
         <button id="newsletterOpen">Sign Up for Newsletter</button>
     </dialog> -->
     <h1 style="display: flex;justify-content: center;color: white;"">Sign Up</h1>
-    <section id="signupPage" style="background-color:#202C39 ;">
-        <form action="" method="post" class="signup-form" onsubmit="healthCheck()">
-            <div style="display: flex; flex-direction: column; ">
-              <div class="input-group-1" style="display: flex;">
-                <input type="text" name="name" placeholder="שם " />
-                <input type="text" name="Fname" placeholder="שם משפחה"/>
-              </div>
-              <div class="input-group-2" style="display: flex;">
-                <input type="text" name="Uname" placeholder="שם משתמש"/>
-                <input type="email" name="email" placeholder="email" />
-              </div>
-              <div class="input-group-3" style="display: flex;">
-              <input type="date" name="Bday" style ="width: 100%;" />
-              </div> 
-              <input type="password" name="password" placeholder="enter your password" style ="width: 100%;" />
-              <div class="input-group-4" style="display: flex;">
-              </div>
-              <div class="input-group-5" style="display: flex;">
-                <input type="password" name="ConfirmPassword" placeholder="Confirm your password" style ="width: 100%;" />
-              </div>
-             <button type="submit" >submit</button>
-            </div>
-          </form>
-          
+    <section id="signupPage">
+      <form action="" method="get" class="signup-form" onsubmit="return healthCheck()">
+        <div style="display: flex; flex-direction: column;">
+          <label>first name</label>
+          <div class="input-group-1" style="display: flex;">
+            <input type="text" name="name" id="input-group-1"/>
+          </div>
+          <label>last name</label>
+          <div class="input-group-1-1" style="display: flex;">
+            <input type="text" name="Fname" id="input-group-1-1"/>
+          </div>
+          <label>user name</label>
+          <div class="input-group-2">
+            <input type="text" name="Uname" id="input-group-2"/>
+          </div>
+          <label>email</label>
+          <div class="input-group-3">
+            <input type="email" name="email" id="input-group-3"/>
+          </div>
+          <label>date of birth</label>
+          <div class="input-group-4" style="display: flex;">
+            <input type="date" name="Bday" id="input-group-4" style="width: 100%;" />
+          </div>
+          <label>password</label>
+          <div class="input-group-5" style="display: flex;">
+            <input type="password" name="password" id="input-group-5" style="width: 100%;" />
+          </div>
+          <label>confirm password</label>
+          <div class="input-group-6" style="display: flex;">
+            <input type="password" name="ConfirmPassword" id="input-group-6" style="width: 100%;" />
+          </div>
+          <label>gender</label>
+          <div class="input-group-7" style="display: flex;border: solid white 1px;">
+            <input type="checkbox" name="gender" id="input-group-7-1" style="width: 100%;" />
+            <input type="checkbox" name="gender" id="input-group-7-2" style="width: 100%;" />
+            <input type="checkbox" name="gender" id="input-group-7-3" style="width: 100%;" />
+          </div>
+          <button type="submit" id="submitBtn">submit</button>
+        </div>
+      </form>
     </section>
+    
         
 </body>
 </html>
