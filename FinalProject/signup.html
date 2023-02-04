@@ -34,7 +34,7 @@
     </dialog> -->
     <h1 style="display: flex;justify-content: center;color: white;"">Sign Up</h1>
     <section id="signupPage">
-      <form action="" method="get" class="signup-form" onsubmit="return healthCheck()">
+      <form action="" method="get" id="signup-form" onsubmit="healthCheck()">
         <div style="display: flex; flex-direction: column;">
           <label>first name</label>
           <div class="input-group-1" style="display: flex;">
@@ -50,7 +50,7 @@
           </div>
           <label>email</label>
           <div class="input-group-3">
-            <input type="email" name="email" id="input-group-3"/>
+            <input type="email" name="email" id="input-group-3"/> 
           </div>
           <label>date of birth</label>
           <div class="input-group-4" style="display: flex;">
@@ -65,10 +65,14 @@
             <input type="password" name="ConfirmPassword" id="input-group-6" style="width: 100%;" />
           </div>
           <label>gender</label>
-          <div class="input-group-7" style="display: flex;border: solid white 1px;">
+          <div class="input-group-7" style="display: flex;">
             <input type="checkbox" name="gender" id="input-group-7-1" style="width: 100%;" />
             <input type="checkbox" name="gender" id="input-group-7-2" style="width: 100%;" />
             <input type="checkbox" name="gender" id="input-group-7-3" style="width: 100%;" />
+          </div>
+          <label>age</label>
+          <div class="input-group-8" style="display: flex;">
+            <input type="number" name="age" id="input-group-8" style="width: 100%;" />
           </div>
           <button type="submit" id="submitBtn">submit</button>
         </div>

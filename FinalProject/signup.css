@@ -35,11 +35,21 @@
     margin-bottom: 30px;
 }
 .input-group-6{
-color: white;
+    color: white;
+    margin-bottom: 30px;
+
+}
+.input-group-7{
+    border: solid white 1px;
+    margin-bottom: 30px;
+
+}
+.input-group-8{
+    margin-bottom: 30px;
 }
 
 #submitBtn{
-    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
@@ -63,10 +73,9 @@ input {
     color: white;
 }
 
-.signup-form{
+#signup-form{
+    width: 400px;
     margin-top: 25px;
-    display: flex;
-    justify-content:center;
     margin: 15px;
     flex-wrap: wrap;
     background-color: #202C39;
