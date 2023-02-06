@@ -26,9 +26,10 @@
   var inputG1 = document.getElementById("input-group-1");
   var inputG1V = inputG1.value;
   if (inputG1V) {
+    alert
     return true;
   } else {
-    document.getElementById("input-group-1").insertAdjacentHTML("afterend", "<p style='color: red;'>Error: you must fill out this field</p>");
+    document.getElementById("error-G1").innerHTML="Error: you must fill out this field";
     return false;
   }
 }
@@ -39,7 +40,7 @@ function inputGroup1_1Check() {
   if (inputG11V) {
     return true;
   } else {
-    document.getElementById("input-group-1-1").insertAdjacentHTML("afterend", "<p style='color: red;'>Error: you must fill out this field</p>");
+    document.getElementById("error-G1-1").innerHTML="Error: you must fill out this field";
     return false;
   }
 }
@@ -50,7 +51,7 @@ function inputGroup2Check() {
   if (inputG2V.length >= 4 && inputG2V.length <= 16) {
     return true;
   } else {
-    document.getElementById("input-group-2").insertAdjacentHTML("afterend", "<p style='color: red;'>Error: user name must between 4-16 characters</p>");
+    document.getElementById("error-G2").innerHTML="Error: user name must be between 4-16 characters";
     return false;
   }
 }
@@ -61,7 +62,7 @@ function inputGroup3Check() {
   if (inputG3V.includes("@") && inputG3V.indexOf("@") != 0) {
     return true;
   } else {
-    document.getElementById("input-group-3").insertAdjacentHTML("afterend", "<p style='color: red;'>Error: incorrect email format please type a correct email address </p>");
+    document.getElementById("error-G3").innerHTML="Error: incorrect email format please type a correct email address";
     return false;
   }
 }
@@ -73,7 +74,7 @@ function inputGroup4Check() {
     alert("true IG-4")
     return true;
   } else {
-    document.getElementById("input-group-4").insertAdjacentHTML("afterend", "<p style='color: red;'>Error: the date must be between 1900 and 2023 </p>");
+    document.getElementById("error-G4").innerHTML="Error: the date must be between 1900 and 2023";
     return false;
   }
 }
@@ -84,7 +85,8 @@ function inputGroup5Check() {
   if (inputG5V.match(decimal)) {
     return true;
   } else {
-    document.getElementById("input-group-5").insertAdjacentHTML("afterend", "<p style='color: red;'>Error: password nust be between 8-16 charachters and must include at least: one lowercase letter, one uppercase letter, one numeric digit, and one special character</p>");    return false;
+    document.getElementById("error-G5").innerHTML="Error: password must be between 8-16 charachters and must include at least: one lowercase letter, one uppercase letter, one numeric digit, and one special character";
+    return false
   }
 }
 
@@ -94,15 +96,27 @@ function inputGroup6Check() {
   if (inputG6V) {
     return true;
   } else {
+    document.getElementById("error-G6").innerHTML="Error: password does not match and must be between 8-16 charachters and must include at least: one lowercase letter, one uppercase letter, one numeric digit, and one special character";
     return false;
   }
 }
+function inputGroup7Check(){
+  if (document.getElementById("input-group-7-1").checked || document.getElementById("input-group-7-2").checked || document.getElementById("input-group-7-3").checked) {
+    alert("true-G7")
+    return true
+  } else {
+    document.getElementById("error-G7").innerHTML="you must check one of the options";
+    return false
+  }
+}
+
 function inputGroup8Check() {
   var inputG8 = document.getElementById("input-group-8");
   var inputG8V = inputG8.value;
   if (inputG8V) {
     return true;
   } else {
+    document.getElementById("error-G8").innerHTML="Error: you must fill out this field";
     return false;
   }
 }
@@ -115,6 +129,9 @@ function healthCheck() {
   var inputGroup4Result = inputGroup4Check();
   var inputGroup5Result = inputGroup5Check();
   var inputGroup6Result = inputGroup6Check();
+  var inputGroup6Result = inputGroup7Check();
+  var inputGroup6Result = inputGroup8Check();
+
 
   if (!inputGroup1Result) {
     return false;
@@ -145,5 +162,4 @@ function healthCheck() {
   }
   return true;
 }
-
 

@@ -1,13 +1,20 @@
 ﻿/* CSS HEX (imported from coolors.co) */
---middle-blue: #89d2dcff;
+/* --middle-blue: #89d2dcff;
 --slate-blue: #6564dbff;
 --persian-blue: #232ed1ff;
 --oxford-blue: #101d42ff;
 --rich-black-fogra-29: #0d1317ff;
 --old nav color:#d9d9d9;
 --old body color-profile:#f9f9f9
---old nav-hoverColor::after#ddd
+--old nav-hoverColor::after#ddd */
 
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
 
 .flex-1{
     display:flex;
@@ -40,9 +47,7 @@
 .arrow1 {
    display: flex;
    order:3;
-   flex:1;
-   justify-content:right;
-   
+   justify-content: right;
 }
 .bio1{
     color: white;
@@ -68,10 +73,7 @@
             background-color: #A6E1FA;
             color: black;
         }
-.aboutP1 {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width:500px;
-}
+
 .footer {
     position: absolute;
     text-align: center;

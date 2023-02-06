@@ -8,57 +8,59 @@
 --old body color-profile:#f9f9f9
 --old nav-hoverColor::after#ddd */
 .input-group-1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .input-group-1-1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .input-group-2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .input-group-2-2{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 100%;
     color: white;
 }
 
 .input-group-3{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .input-group-4{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .input-group-5{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .input-group-6{
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
 }
 .input-group-7{
     border: solid white 1px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 
 }
+.input-group-7 label {
+    margin-right: 10px;
+}
+
+.input-group-7 input[type="radio"] {
+    margin-right: 10px;
+}
 .input-group-8{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #submitBtn{
     margin-bottom: 25px;
 }
 
-
-
-
-
-input::placeholder {
-    color: white;
-  }
 
 .Modal{
     width: 300px;
@@ -73,7 +75,7 @@ input {
     color: white;
 }
 
-#signup-form{
+.signup-form{
     width: 400px;
     margin-top: 25px;
     margin: 15px;
@@ -83,11 +85,9 @@ input {
 }
 
 label{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
     color: white;
-    /* display: grid;
-    place-items: center; */
 }
 
 
