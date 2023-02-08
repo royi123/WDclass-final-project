@@ -34,6 +34,19 @@ function input3(){
 
 
 function verify(){
+  var input1R=input1();
+  var input2R=input2();
+  var input3R=input1();
+
+  if (!input1R) {
+    return false;
+  }
+  if (!input2R) {
+    return false;
+  }
+  if (!input3R) {
+    return false;
+  }
 
 }
 

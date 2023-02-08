@@ -137,27 +137,21 @@ function healthCheck() {
     return false;
   }
   if (!inputGroup1_1Result) {
-    alert("input-group-1-1 check failed");
     return false;
   }
   if (!inputGroup2Result) {
-    alert("input-group-2 check failed");
     return false;
   }
   if (!inputGroup3Result) {
-    alert("input-group-3 check failed");
     return false;
   }
   if (!inputGroup4Result) {
-    alert("input-group-4 check failed");
     return false;
   }
   if (!inputGroup5Result) {
-    alert("input-group-5 check failed");
     return false;
   }
   if (!inputGroup6Result) {
-    alert("input-group-6 check failed");
     return false;
   }
   return true;
