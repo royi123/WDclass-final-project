@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SignupAndLogin.Master.cs" Inherits="FinalProject.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="topnav">
+        <p>already a member?</p>
+            <div style="padding-top:10px">
+                <img width="70px" height="70px" src="images/code (2).png" />
+            </div>
+        </div>    
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    
+</body>
+</html>
