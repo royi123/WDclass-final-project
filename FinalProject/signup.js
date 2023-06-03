@@ -90,7 +90,7 @@ function inputGroup5Check() {
 }
 
 function inputGroup6Check() {
-  var inputG5V = inputG5.value;
+    var inputG5V = document.getElementById("input-group-5");
   var inputG5 = document.getElementById("input-group-5");
   var inputG6 = document.getElementById("input-group-6");
   var inputG6V = inputG6.value;
@@ -153,7 +153,42 @@ function healthCheck() {
   }
   if (!inputGroup6Result) {
     return false;
-  }
-  return true;
+    }
+    let name = document.getElementById("input - group - 1").value;
+    let lname = document.getElementById("input - group - 1 - 1").value;
+    let Usrname = document.getElementById("input - group - 2").value;
+    let email = document.getElementById("input - group - 3").value;
+    let DOB = document.getElementById("input - group - 4").value;
+    let password = document.getElementById("input - group - 5").value;
+    let ConfirmPassword = document.getElementById("input - group - 6").value;
+    let gender;
+    let age = document.getElementById("input - group - 8").value;
+
+    if (document.getElementById("input-group-7-1").checked) {
+            gender = document.getElementById("input-group-7-1").value;
+    }
+    if (document.getElementById("input-group-7-2").checked) {
+        gender = document.getElementById("input-group-7-2").value;
+
+    }
+    if (document.getElementById("input-group-7-3").checked) {
+        gender = document.getElementById("input-group-7-3")
+    }
+    let Usrdata=
+    {
+        "name": name,
+        "lname": lname,
+        "UserName":Usrname,
+        "email": email,
+        "DOB": DOB,
+        "password": password,
+        "gender": gender,
+        "age": age
+
+    }
+    var JSONusrdata = JSON.stringify(Usrdata);
+    console.log(JSONusrdata);
+
+    return true;
 }
 

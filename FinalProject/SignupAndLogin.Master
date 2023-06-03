@@ -10,11 +10,15 @@
 </head>
 <body>
     <div class="topnav">
-        <p>already a member?</p>
+        <a href="Signup.aspx">Signup</a>
+        <a href="Login.aspx">Login</a>
+        <div id="title1">
             <div style="padding-top:10px">
                 <img width="70px" height="70px" src="images/code (2).png" />
             </div>
-        </div>    
+        </div>
+    </div>
+    
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

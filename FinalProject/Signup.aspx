@@ -15,23 +15,6 @@
     <title>Document</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <%--<div class="topnav">
-        <a href="contacts.html">Contact</a>
-        <a href="about.html">About Us</a>
-        <div class="dropdown">
-            <button class="dropbtn" ; style="border:none">posts</button>
-            <div class="dropdown-content">
-                <a href="compose.html">compose a new entry</a>
-                <a href="viewPosts.html">view old posts</a>
-            </div>
-        </div>
-        <a href="homePage.html">Home</a>
-        <div id="title1">
-            <div style="padding-top:10px">
-                <img width="70px" height="70px" src="images/code (2).png" />
-            </div>
-        </div>
-    </div>--%>
      <dialog class="modal">
         <h1>would you like to join our newsletter</h1>
         <p>in order to recieve news about this project</p>
